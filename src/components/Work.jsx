@@ -2,7 +2,7 @@ import React from 'react'
 import Vet from '../assets/vetList.jpg'
 import SevenSeas from '../assets/sevenSeas.jpg'
 import Portfolio from '../assets/portfolioAlex.jpg'
-import {Link} from 'react-scroll'
+import { Link } from 'react-scroll'
 
 const Work = () => {
     return (
@@ -66,9 +66,11 @@ const Work = () => {
                                     </a>
                                 </button>
                                 <button className='m-4 p-4 bg-slate-200 rounded-md text-[#14274E] hover:bg-[#00a6ff] hover:text-slate-200'>
-                                    <Link to='home' smooth={true} duration={500}>
-                                        Demo
-                                    </Link>
+                                    <li>
+                                        <Link to='home' smooth={true} duration={500}>
+                                            Demo
+                                        </Link>
+                                    </li>
                                 </button>
                             </div>
                         </div>
