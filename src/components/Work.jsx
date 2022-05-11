@@ -38,7 +38,7 @@ const Work = () => {
                             <img className='w-full mx-auto rounded-md' src={Expenses} alt="HTML Icon" />
                         </div>
                         <div className='text-slate-100'>
-                            <h1 className='my-4 font-bold text-slate-100'>Beautiful landing page - Vanilla Js</h1>
+                            <h1 className='my-4 font-bold text-slate-100'>Control Expenses - React Js</h1>
                             <div className='justify-between'>
                                 <button className='m-4 p-4 bg-slate-200 rounded-md text-[#14274E] hover:bg-[#00a6ff] hover:text-slate-200'>
                                     <a href="https://github.com/alejandrogch7/tracker" target='_blank'>
