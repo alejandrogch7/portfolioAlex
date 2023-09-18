@@ -13,20 +13,20 @@ const Work = () => {
                     <p className='py-6'>Some examples</p>
                 </div>
                 <div className='w-full grid grid-cols-1 sm:grid-cols-3 gap-4 text-center py-8'>
-                    <div className='shadow-md bg-[#14274E] shadow-slate-500 hover:scale-110 duration-500 rounded-md'>
+                <div className='shadow-md bg-[#14274E] shadow-slate-500 hover:scale-110 duration-500 rounded-md'>
                         <div>
-                            <img className='w-full mx-auto rounded-md' src={Vet} alt="HTML Icon" />
+                            <img className='w-full mx-auto rounded-md' src={Crypto} alt="HTML Icon" />
                         </div>
                         <div className='text-slate-100'>
-                            <h1 className='my-4 font-bold text-slate-100'>Appointments list - React Js</h1>
+                            <h1 className='my-4 font-bold text-slate-100'>Track your cryptos - React Js</h1>
                             <div className='justify-between'>
                                 <button className='m-4 p-4 bg-slate-200 rounded-md text-[#14274E] hover:bg-[#00a6ff] hover:text-slate-200'>
-                                    <a href="https://github.com/alejandrogch7/veterinary_react_vite" target='_blank'>
+                                    <a href="https://github.com/alejandrogch7/crypto" target='_blank'>
                                         Code
                                     </a>
                                 </button>
                                 <button className='m-4 p-4 bg-slate-200 rounded-md text-[#14274E] hover:bg-[#00a6ff] hover:text-slate-200'>
-                                    <a href="https://sparkling-kheer-ae58c9.netlify.app/" target='_blank'>
+                                    <a href="https://relaxed-starburst-21ef98.netlify.app/" target='_blank'>
                                         Demo
                                     </a>
                                 </button>
@@ -55,18 +55,18 @@ const Work = () => {
                     </div>
                     <div className='shadow-md bg-[#14274E] shadow-slate-500 hover:scale-110 duration-500 rounded-md'>
                         <div>
-                            <img className='w-full mx-auto rounded-md' src={Crypto} alt="HTML Icon" />
+                            <img className='w-full mx-auto rounded-md' src={Vet} alt="HTML Icon" />
                         </div>
                         <div className='text-slate-100'>
-                            <h1 className='my-4 font-bold text-slate-100'>Track your cryptos - React Js</h1>
+                            <h1 className='my-4 font-bold text-slate-100'>Appointments list - React Js</h1>
                             <div className='justify-between'>
                                 <button className='m-4 p-4 bg-slate-200 rounded-md text-[#14274E] hover:bg-[#00a6ff] hover:text-slate-200'>
-                                    <a href="https://github.com/alejandrogch7/crypto" target='_blank'>
+                                    <a href="https://github.com/alejandrogch7/veterinary_react_vite" target='_blank'>
                                         Code
                                     </a>
                                 </button>
                                 <button className='m-4 p-4 bg-slate-200 rounded-md text-[#14274E] hover:bg-[#00a6ff] hover:text-slate-200'>
-                                    <a href="https://relaxed-starburst-21ef98.netlify.app/" target='_blank'>
+                                    <a href="https://sparkling-kheer-ae58c9.netlify.app/" target='_blank'>
                                         Demo
                                     </a>
                                 </button>
@@ -74,7 +74,6 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     )

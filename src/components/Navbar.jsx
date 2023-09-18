@@ -86,7 +86,7 @@ const Navbar = () => {
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-blue-600'>
                         <a
                             className='flex justify-between items-center w-full text-gray-300'
-                            href="https://www.linkedin.com/in/alejandro-gonz%C3%A1lez-781a231a7?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B8dapIkV7SYaifD2FjynCow%3D%3D"
+                            href="https://www.linkedin.com/in/alejandrogc-developer/"
                             target='_blank'>
                             LinkedIn <FaLinkedin size={30} />
                         </a>
@@ -97,13 +97,6 @@ const Navbar = () => {
                             href="https://github.com/alejandrogch7"
                             target='_blank'>
                             Github <FaGithub size={30} />
-                        </a>
-                    </li>
-                    <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-red-600'>
-                        <a
-                            className='flex justify-between items-center w-full text-gray-300'
-                            href="mailto:alexdev.gc@gmail.com?Subject=Contact from portfolio" >
-                            Email <HiOutlineMail size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-slate-500'>
