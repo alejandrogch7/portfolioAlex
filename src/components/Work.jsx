@@ -18,7 +18,7 @@ const Work = () => {
                             <img className='w-full mx-auto rounded-md' src={Crypto} alt="HTML Icon" />
                         </div>
                         <div className='text-slate-100 m-5'>
-                            <h1 className='my-4 text-2xl font-bold text-sky-500'>Track your cryptos</h1>
+                            <h1 className='my-4 text-2xl font-bold text-sky-500'>Track Your Cryptos</h1>
                             <p>
                                 Crypto is a modern React.js web app that displays real-time cryptocurrency market data.
                                 It uses TailwindCSS for responsive design and CoinGecko’s public API to fetch up-to-date coin prices,
@@ -68,7 +68,7 @@ const Work = () => {
                             <img className='w-full mx-auto rounded-md' src={Vet} alt="HTML Icon" />
                         </div>
                         <div className='text-slate-100 m-5'>
-                            <h1 className='my-4 text-2xl font-bold text-sky-500'>Appointments list</h1>
+                            <h1 className='my-4 text-2xl font-bold text-sky-500'>Appointments List</h1>
                             <p>
                                 Veterinary App is a React.js and Vite project for managing veterinary appointments.
                                 Users can add, edit, and delete pet information and appointments easily.
