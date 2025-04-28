@@ -29,11 +29,11 @@ const Navbar = () => {
                         About
                     </Link>
                 </li>
-                <li>
+{/*                 <li>
                     <Link to='skills' smooth={true} duration={500}>
                         Skills
                     </Link>
-                </li>
+                </li> */}
                 <li>
                     <Link to='work' smooth={true} duration={500}>
                         Work
