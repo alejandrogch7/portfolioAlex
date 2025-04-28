@@ -5,14 +5,15 @@ const About = () => {
     return (
         <div
             name='about'
-            className='w-full h-96 bg-slate-200 text-[#e5e7e9] border-y-4 border-black'
+            className='w-full h-96 bg-black bg-opacity-60 text-[#e5e7e9] border-y-2 border-black'
             >
             <div 
-                className='w-full h-full'
+                className='w-full h-full bg-black bg-opacity-50 shadow-inner shadow-black'
                 style={{
                         backgroundImage: `url(${BackgroundImage})`,
                         backgroundSize: 'cover',
-                        backgroundPosition: 'center'
+                        backgroundPosition: 'center',
+                        backgroundBlendMode: 'overlay',
                       }}>
                 <div className='flex flex-col justify-center items-center w-full h-full'>
                     <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
@@ -24,12 +25,11 @@ const About = () => {
                     </div>
                     <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8 px-4'>
                         <div className='sm:text-right text-4xl font-bold'>
-                            <p>Hi. I'm Alex, welcome, please take a look around!</p>
+                            <p><b>Full Stack Software Developer</b><br /></p>
                         </div>
                         <div>
                             <p>
-                                <b>Full Stack Software Developer</b><br />
-                                currently based in Cali, Colombia.<br />
+                                Currently based in Cali, Colombia.<br />
 
                                 I really enjoy sports, outdoor activities and get
                                 in touch with interesting people who likes to share their ideas in
