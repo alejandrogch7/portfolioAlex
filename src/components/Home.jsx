@@ -12,8 +12,8 @@ const Home = () => {
             {/* container */}
             <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full' >
                 <h1 className='text-4xl sm:text-7xl font-bold text-[#002b78]'>Hello, I'm Alex</h1>
-                <h2 className='text-[#14274E] text-4xl'>Full Stack Developer.</h2>
-                <p className='text-[#14274E] py-4 max-w-[700px]'>
+                <h2 className='bg-gradient-to-b from-[#2d81ff] to-[#000851] bg-clip-text text-transparent text-4xl font-bold'>Full Stack Developer.</h2>
+                <p className='text-[#002b78] py-4 max-w-[700px]'>
                     Passionate about technology and always looking for new challenges,
                     in this portfolio I'll show you my skill set and a few things about me.
                 </p>
@@ -31,5 +31,4 @@ const Home = () => {
 }
 
 export default Home
-
 
