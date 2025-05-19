@@ -1,4 +1,6 @@
 import SmallProjects from './SmallProjects'
+import dtree from '../assets/devtreeImage.png'
+import gram from '../assets/devgramImage.png'
 
 const Work = () => {
     return (
@@ -8,11 +10,11 @@ const Work = () => {
                     <p className='text-4xl font-bold inline border-b-4 border-[#00a6ff]'>My Work</p>
                 </div>
                 <div class="max-w-2xl rounded mx-auto overflow-hidden shadow-lg hover:scale-110 duration-500 my-10">
-                    <img class="w-full" src="/src/assets/devtreeImage.png" alt="Sunset in the mountains"/>
+                    <img class="w-full" src={dtree} alt="Sunset in the mountains"/>
                         <div class="px-6 py-4">
                             <div class="font-bold text-xl mb-2 text-center">DevTree - Full Stack MERN App</div>
                             <p class="text-gray-700 text-base">
-                                DevTree is a full-stack application inspired by Linktree, allowing users to create a personalized profile page with a list of customizable links. Built for developers, it offers a clean and responsive interface where users can showcase their most important links, such as GitHub profiles, portfolios, social media, or project demos in one central place.
+                                DevTree is a Full-Stack application inspired by Linktree, allowing users to create a personalized profile page with a list of customizable links. Built for developers, it offers a clean and responsive interface where users can showcase their most important links, such as GitHub profiles, portfolios, social media, or project demos in one central place.
                             </p>
                         </div>
                         <div className='flex justify-center w-full'>
@@ -29,7 +31,7 @@ const Work = () => {
                         </div>
                 </div>
                 <div class="max-w-2xl rounded mx-auto overflow-hidden shadow-lg hover:scale-110 duration-500 my-10">
-                    <img class="w-full" src="/src/assets/devgramImage.png" alt="Sunset in the mountains"/>
+                    <img class="w-full" src={gram} alt="Sunset in the mountains"/>
                         <div class="px-6 py-4">
                             <div class="font-bold text-xl mb-2 text-center">Devgram - Full Stack Laravel App</div>
                             <p class="text-gray-700 text-base">
