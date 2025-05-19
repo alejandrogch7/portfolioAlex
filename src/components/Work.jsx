@@ -1,94 +1,56 @@
-import React from 'react'
-import Vet from '../assets/VeterinaryApp.png'
-import Crypto from '../assets/CryptoApp.png'
-import Expenses from '../assets/ExpensesApp.png'
-import { Link } from 'react-scroll'
+import SmallProjects from './SmallProjects'
 
 const Work = () => {
     return (
         <div name='work' className='w-full h-full bg-slate-200 text-[#14274E]'>
             <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-                <div className='text-[#14274E] pt-10 mt-10'>
-                    <p className='text-4xl font-bold inline border-b-4 border-[#00a6ff]'>Work</p>
-                    <p className='py-6'>Some examples</p>
+                <div className='text-[#14274E] pt-10 my-20 mx-auto text-center'>
+                    <p className='text-4xl font-bold inline border-b-4 border-[#00a6ff]'>My Work</p>
                 </div>
-                <div className='w-full grid grid-cols-1 sm:grid-cols-3 gap-4 text-center py-8'>
-                    <div className='shadow-md bg-[#14274E] shadow-slate-500 hover:scale-110 duration-500 rounded-md'>
-                        <div>
-                            <img className='w-full mx-auto rounded-md' src={Crypto} alt="HTML Icon" />
-                        </div>
-                        <div className='text-slate-100 m-5'>
-                            <h1 className='my-4 text-2xl font-bold text-sky-500'>Track Your Cryptos</h1>
-                            <p>
-                                Crypto is a modern React.js web app that displays real-time cryptocurrency market data.
-                                It uses TailwindCSS for responsive design and CoinGecko’s public API to fetch up-to-date coin prices,
-                                rankings, and information.
+                <div class="max-w-2xl rounded mx-auto overflow-hidden shadow-lg hover:scale-110 duration-500 my-10">
+                    <img class="w-full" src="/src/assets/devtreeImage.png" alt="Sunset in the mountains"/>
+                        <div class="px-6 py-4">
+                            <div class="font-bold text-xl mb-2 text-center">DevTree - Full Stack MERN App</div>
+                            <p class="text-gray-700 text-base">
+                                DevTree is a full-stack application inspired by Linktree, allowing users to create a personalized profile page with a list of customizable links. Built for developers, it offers a clean and responsive interface where users can showcase their most important links, such as GitHub profiles, portfolios, social media, or project demos in one central place.
                             </p>
-                            <div className='justify-between'>
-                                <button className='m-4 p-4 bg-slate-200 rounded-md text-[#14274E] hover:bg-[#00a6ff] hover:text-slate-200'>
-                                    <a href="https://github.com/alejandrogch7/crypto" target='_blank'>
-                                        Code
-                                    </a>
-                                </button>
-                                <button className='m-4 p-4 bg-slate-200 rounded-md text-[#14274E] hover:bg-[#00a6ff] hover:text-slate-200'>
-                                    <a href="https://relaxed-starburst-21ef98.netlify.app/" target='_blank'>
-                                        Demo
-                                    </a>
-                                </button>
-                            </div>
                         </div>
-                    </div>
-                    <div className='shadow-md bg-[#14274E] shadow-slate-500 hover:scale-110 duration-500 rounded-md'>
-                        <div>
-                            <img className='w-full mx-auto rounded-md' src={Expenses} alt="HTML Icon" />
+                        <div className='flex justify-center w-full'>
+                            <button className='m-4 p-4 shadow-lg bg-[#00a6ff] rounded-md text-slate-200 hover:bg-[#14274E]'>
+                                <a href="https://github.com/alejandrogch7/DevTree" target='_blank'>
+                                    Code
+                                </a>
+                            </button>
+                            <button className='m-4 p-4 shadow-lg bg-[#00a6ff] rounded-md text-slate-200 hover:bg-[#14274E]'>
+                                <a href="https://alexdev-devtree.netlify.app/" target='_blank'>
+                                    Demo
+                                </a>
+                            </button>
                         </div>
-                        <div className='text-slate-100 m-5'>
-                            <h1 className='my-4 text-2xl font-bold text-sky-500'>Control Expenses</h1>
-                            <p>
-                                Tracker is a simple React.js app to manage and track personal expenses.
-                                It allows users to add, view, and organize their spending in an easy-to-use interface.
-                                Built with TailwindCSS for a clean, responsive design across all devices.
-                            </p>
-                            <div className='justify-between'>
-                                <button className='m-4 p-4 bg-slate-200 rounded-md text-[#14274E] hover:bg-[#00a6ff] hover:text-slate-200'>
-                                    <a href="https://github.com/alejandrogch7/tracker" target='_blank'>
-                                        Code
-                                    </a>
-                                </button>
-                                <button className='m-4 p-4 bg-slate-200 rounded-md text-[#14274E] hover:bg-[#00a6ff] hover:text-slate-200'>
-                                    <a href="https://animated-babka-cbf09d.netlify.app/" target='_blank'>
-                                        Demo
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='shadow-md bg-[#14274E] shadow-slate-500 hover:scale-110 duration-500 rounded-md'>
-                        <div>
-                            <img className='w-full mx-auto rounded-md' src={Vet} alt="HTML Icon" />
-                        </div>
-                        <div className='text-slate-100 m-5'>
-                            <h1 className='my-4 text-2xl font-bold text-sky-500'>Appointments List</h1>
-                            <p>
-                                Veterinary App is a React.js and Vite project for managing veterinary appointments.
-                                Users can add, edit, and delete pet information and appointments easily.
-                                Styled with TailwindCSS, offering a fast, clean, and responsive experience.
-                            </p>
-                            <div className='justify-between'>
-                                <button className='m-4 p-4 bg-slate-200 rounded-md text-[#14274E] hover:bg-[#00a6ff] hover:text-slate-200'>
-                                    <a href="https://github.com/alejandrogch7/veterinary_react_vite" target='_blank'>
-                                        Code
-                                    </a>
-                                </button>
-                                <button className='m-4 p-4 bg-slate-200 rounded-md text-[#14274E] hover:bg-[#00a6ff] hover:text-slate-200'>
-                                    <a href="https://sparkling-kheer-ae58c9.netlify.app/" target='_blank'>
-                                        Demo
-                                    </a>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
                 </div>
+                <div class="max-w-2xl rounded mx-auto overflow-hidden shadow-lg hover:scale-110 duration-500 my-10">
+                    <img class="w-full" src="/src/assets/devgramImage.png" alt="Sunset in the mountains"/>
+                        <div class="px-6 py-4">
+                            <div class="font-bold text-xl mb-2 text-center">Devgram - Full Stack Laravel App</div>
+                            <p class="text-gray-700 text-base">
+                                Devgram is a Full-Stack Laravel App that replicates the essential features of the popular photo-sharing platform Instagram, created for Sofware Engineers. 
+                                It allows Developers to create profiles, post photos, engage with others' content, and build a social presence online.
+                            </p>
+                        </div>
+                        <div className='flex justify-center w-full'>
+                            <button className='m-4 p-4 shadow-lg bg-[#00a6ff] rounded-md text-slate-200 hover:bg-[#14274E]'>
+                                <a href="https://github.com/alejandrogch7/devgram" target='_blank'>
+                                    Code
+                                </a>
+                            </button>
+                            <button className='m-4 p-4 shadow-lg bg-[#00a6ff] rounded-md text-slate-200 hover:bg-[#14274E]'>
+                                <a href="https://dajwelu.mnz.dom.my.id/alexdevgram" target='_blank'>
+                                    Demo
+                                </a>
+                            </button>
+                        </div>
+                </div>
+                <SmallProjects />
             </div>
         </div>
     )
