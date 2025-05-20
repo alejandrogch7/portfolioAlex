@@ -18,7 +18,7 @@ const Home = () => {
                     in this portfolio I'll show you my skill set and a few things about me.
                 </p>
                 <form>
-                    <button className='text-[#14274E] font-bold border-2 border-[#14274E] px-6 py-3 my-2 flex flex-row items-center hover:bg-[#002b78] hover:text-slate-200'>
+                    <button className='m-4 p-4 shadow-lg bg-[#00a6ff] rounded-md text-slate-200 hover:bg-[#14274E]'>
                         <Link to='work' smooth={true} duration={500}>
                             View my work
                         </Link>

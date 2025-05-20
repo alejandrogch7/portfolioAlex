@@ -16,8 +16,7 @@ const Contact = () => {
             <input className='p-2 m-2 rounded-md' type="email" name="email" id="email" placeholder='Email' />
             <textarea className='p-2 m-2 rounded-md' name="message" id="message" placeholder='Message' cols="30" rows="10"></textarea>
             <button 
-            className='bg-[#14274E] rounded-md text-slate-200 border-2 
-            px-4 py-2 mx-auto flex justify-center items-center hover:bg-[#00a6ff] hover:text-[#14274E]'>
+            className='m-4 p-4 shadow-lg bg-[#00a6ff] rounded-md text-slate-200 hover:bg-[#14274E]'>
               Submit.
             </button>
         </form>
