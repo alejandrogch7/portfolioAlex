@@ -1,16 +1,21 @@
-import SmallProjects from './SmallProjects'
+import SmallProjects from './FrontendProjects'
 import dtree from '../assets/devtreeImage.png'
 import gram from '../assets/devgramImage.png'
+import FrontendProjects from './FrontendProjects'
+import BackendProjects from './BackendProjects'
 
 const Work = () => {
     return (
         <div name="work" className="w-full h-full bg-slate-200 text-[#14274E]">
-            <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+            <div className="max-w-[1000px] mx-auto flex flex-col justify-center h-full">
                 <div className="text-[#14274E] pt-10 my-20 mx-auto text-center">
                     <p className="text-4xl font-bold inline border-b-4 border-[#00a6ff]">My Work</p>
                 </div>
 
                 {/* Contenedor de las tarjetas */}
+                <div className="text-[#14274E] mb-10 text-left">
+                    <p className="text-3xl font-bold inline border-b-4 border-[#00a6ff]">Full-Stack Development</p>
+                </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {/* DevTree */}
                     <div className="rounded overflow-hidden shadow-lg hover:scale-105 duration-300 bg-white">
@@ -66,7 +71,15 @@ const Work = () => {
                 </div>
 
                 {/* Otros proyectos */}
-                <SmallProjects />
+                <div className="text-[#14274E] mt-20 mb-10 text-left">
+                    <p className="text-3xl font-bold inline border-b-4 border-[#00a6ff]">Backend Development</p>
+                </div>
+                <BackendProjects />
+
+                <div className="text-[#14274E] mt-20 mb-10 text-left">
+                    <p className="text-3xl font-bold inline border-b-4 border-[#00a6ff]">Frontend Development</p>
+                </div>
+                <FrontendProjects />
             </div>
         </div>
 

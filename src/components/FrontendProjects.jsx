@@ -4,10 +4,10 @@ import Crypto from '../assets/CryptoApp.png'
 import Expenses from '../assets/ExpensesApp.png'
 import { Link } from 'react-scroll'
 
-export default function SmallProjects() {
+export default function FrontendProjects() {
     return (
         <>
-            <div className='w-full grid grid-cols-1 sm:grid-cols-3 gap-4 text-center py-8'>
+            <div className='w-full grid grid-cols-1 sm:grid-cols-3 gap-4 text-center pb-8'>
 
                 <div className='shadow-lg bg-white hover:scale-110 duration-500 rounded-md overflow-hidden'>
                     <div>
@@ -17,8 +17,8 @@ export default function SmallProjects() {
                         <h1 className='my-4 text-2xl font-bold text-[#14274E]'>Track Your Cryptos</h1>
                         <p>
                             Crypto is a modern React.js web app that displays real-time cryptocurrency market data.
-                            It uses TailwindCSS for responsive design and CoinGecko’s public API to fetch up-to-date coin prices,
-                            rankings, and information.
+                            It uses TailwindCSS for responsive design and CoinGecko's public API to fetch up-to-date coin prices,
+                            rankings, and information. We encourage you to try it!
                         </p>
                         <div className='flex justify-center gap-4 p-4'>
                             <button className='px-4 py-2 bg-[#00a6ff] rounded-md text-slate-200 hover:bg-[#14274E] shadow'>

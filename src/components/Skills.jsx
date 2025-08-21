@@ -1,11 +1,14 @@
 import React from 'react'
 
-import HTML from '../assets/html.png'
-import CSS from '../assets/css.png'
-import JavaScript from '../assets/javascript.png'
-import ReactImg from '../assets/react.png'
-import Github from '../assets/github.png'
-import Tailwind from '../assets/tailwind.png'
+import JAVA from '../assets/java.png'
+import SB from '../assets/springboot.png'
+import PHP from '../assets/php.png'
+import LARAVEL from '../assets/laravel.png'
+import PYTHON from '../assets/python.png'
+import TS from '../assets/typescript.png'
+import NODE from '../assets/node.png'
+import JAVASCRIPT from '../assets/javascript.png'
+import REACT from '../assets/react.png'
 
 const Skills = () => {
   return (
@@ -17,28 +20,40 @@ const Skills = () => {
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8'>
                 <div className='shadow-md bg-[#14274E] shadow-slate-500 hover:scale-110 duration-500 rounded-md pt-4'>
-                    <img className='w-20 mx-auto' src={HTML} alt="HTML Icon"/>
-                    <p className='my-4 font-bold'>HTML</p>
+                    <img className='w-20 mx-auto' src={JAVA} alt="HTML Icon"/>
+                    <p className='my-4 font-bold'>Java</p>
                 </div>
                 <div className='shadow-md bg-[#14274E] shadow-slate-500 hover:scale-110 duration-500 rounded-md pt-4'>
-                    <img className='w-20 mx-auto' src={CSS} alt="CSS Icon"/>
-                    <p className='my-4 font-bold'>CSS</p>
+                    <img className='w-20 mx-auto' src={SB} alt="HTML Icon"/>
+                    <p className='my-4 font-bold'>Spring Boot</p>
                 </div>
                 <div className='shadow-md bg-[#14274E] shadow-slate-500 hover:scale-110 duration-500 rounded-md pt-4'>
-                    <img className='w-20 mx-auto' src={JavaScript} alt="JavaScript Icon"/>
-                    <p className='my-4 font-bold'>JavaScript</p>
+                    <img className='w-20 mx-auto' src={PHP} alt="CSS Icon"/>
+                    <p className='my-4 font-bold'>PHP</p>
                 </div>
                 <div className='shadow-md bg-[#14274E] shadow-slate-500 hover:scale-110 duration-500 rounded-md pt-4'>
-                    <img className='w-20 mx-auto' src={ReactImg} alt="React Icon"/>
+                    <img className='w-20 mx-auto' src={LARAVEL} alt="JavaScript Icon"/>
+                    <p className='my-4 font-bold'>Laravel</p>
+                </div>
+                <div className='shadow-md bg-[#14274E] shadow-slate-500 hover:scale-110 duration-500 rounded-md pt-4'>
+                    <img className='w-20 mx-auto' src={TS} alt="Tailwind Icon"/>
+                    <p className='my-4 font-bold'>Typescript</p>
+                </div>
+                <div className='shadow-md bg-[#14274E] shadow-slate-500 hover:scale-110 duration-500 rounded-md pt-4'>
+                    <img className='w-20 mx-auto' src={JAVASCRIPT} alt="React Icon"/>
+                    <p className='my-4 font-bold'>Javascript</p>
+                </div>
+                <div className='shadow-md bg-[#14274E] shadow-slate-500 hover:scale-110 duration-500 rounded-md pt-4'>
+                    <img className='w-20 mx-auto' src={REACT} alt="Github Icon"/>
                     <p className='my-4 font-bold'>React</p>
                 </div>
                 <div className='shadow-md bg-[#14274E] shadow-slate-500 hover:scale-110 duration-500 rounded-md pt-4'>
-                    <img className='w-20 mx-auto' src={Github} alt="Github Icon"/>
-                    <p className='my-4 font-bold'>Github</p>
+                    <img className='w-20 mx-auto' src={NODE} alt="Tailwind Icon"/>
+                    <p className='my-4 font-bold'>NodeJs</p>
                 </div>
                 <div className='shadow-md bg-[#14274E] shadow-slate-500 hover:scale-110 duration-500 rounded-md pt-4'>
-                    <img className='w-20 mx-auto' src={Tailwind} alt="Tailwind Icon"/>
-                    <p className='my-4 font-bold'>Tailwind</p>
+                    <img className='w-20 mx-auto' src={PYTHON} alt="Tailwind Icon"/>
+                    <p className='my-4 font-bold'>Python</p>
                 </div>
             </div>
 
