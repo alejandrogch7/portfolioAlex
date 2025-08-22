@@ -12,7 +12,7 @@ import REACT from '../assets/react.png'
 
 const Skills = () => {
   return (
-    <div name='skills' className='bg-slate-200 text-slate-200 h-screen'>
+    <div name='skills' className='bg-slate-200 text-slate-200 h-auto md:h-screen'>
         <div className='max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full p-4'>
             <div className='text-[#14274E]'>
                 <p className='text-4xl font-bold inline border-b-4 border-[#00a6ff]'>Skills</p>
